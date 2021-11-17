@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+    font-size: 18px;
+}
+
+.main-header {
+    background: url("./images/desktop/image-header.jpg");
+    height: 800px;
+    background-size: cover;
+    width: 100%;
+}
+
+.company-name {
+    font-family: 'Barlow';
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact {
+    color: black;
+    font-family: 'Fraunces';
+    padding: 8px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.nav p {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 0.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
+    padding: 10px;
+}
+.main-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
