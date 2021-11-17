@@ -11,8 +11,8 @@
 
 .main-header {
     background: url("./images/desktop/image-header.jpg");
-    height: 800px;
-    background-size: cover;
+    height: 740px;
+    background-size: contain;
     width: 100%;
 }
 
@@ -20,38 +20,44 @@
     font-family: 'Barlow';
     font-weight: 800;
     font-size: 1.5rem;
-    color: white;
+    color: hsl(0, 0%, 100%);
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .contact {
+    text-decoration: none;
+    font-size: 0.8em;
+    display: inline-block;
     color: black;
     font-family: 'Fraunces';
-    padding: 8px;
-    background-color: white;
-    border-radius: 30px;
-    margin-top: 20px;
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 32px;
+    margin-top: 30px;
+}
+
+.contact:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .nav p {
     text-decoration: none;
     display: inline-block;
-    color: white;
+    color: hsl(0, 0%, 100%);
     font-weight: 600;
 }
 
-.nav a {
-    text-decoration: none;
-    font-size: 0.8em;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline-block;
-}
+
 
 .nav li {
     display: inline;
-    padding: 10px;
+    padding: 20px;
 }
 .main-header-container {
     display: flex;
@@ -61,4 +67,20 @@
 .main-header-container ul{
     flex-grow: 1;
     text-align: end;
+}
+
+.arrow-container p{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 2.8em;
+    margin-top: 70px;
+    margin-bottom: 75px;
+    padding: 20px;
+    letter-spacing: 8px;
+    color: hsl(0, 0%, 100%);
+}
+
+.arrow-container {
+    text-transform: uppercase;
+    text-align: center;
 }
