@@ -82,46 +82,51 @@
     text-transform: uppercase;
     text-align: center;
 }
-
-h3{
-    font-size: 35px;
-    font-family: fraunces;
-
+.transform-column {
+    width: 100vw;
+    display: flex;    
 }
 
-.top_part{
-    display: flex;
+section {
+    width: 50vw;
 }
 
-.transform_box{
-    width:650px;
-    height:350px;
-    border:1px solid white;
-    text-align: left;
-    padding-top:80px ;
-    padding-left: 80px;
-    padding-bottom:80px ;
-    padding-right: 40px;
-    background-color:  hsl(0, 0%, 100%);
+.egg-img {
+    width: 50vw;
+    padding: 0px;
 }
-
-.egg_image{
-    height:350px;
-}
-
 
 .footer{
     background-color:rgba(38, 172, 145, 0.6);
     height: 300px;
+    width: 100vw;
 }
 
-.sunny{
-    text-align: center;
-    padding-top: 60px;
-    font-family: Barlow;
-    color:rgba(2, 83, 67, 0.8);
-    
+
+.transform-box {
+    padding: 100px;
+    margin: 10px;
 }
+
+.transform-box h3 {
+    font-family: 'Fraunces';
+    font-size: 2em;
+    font-weight: 800;
+    width: 10em;
+    margin: 30px 10px 10px;
+    padding: 20px;
+}
+
+.transform-box p {
+    padding: 0px 20px;
+    margin: 10px 10px 50px 10px;
+    width: 110%;
+}
+
+
+
+
+
 
 .container {
     text-align: center;
