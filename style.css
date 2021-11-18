@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
 
+:root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Font-size: 18px
+    }
+
 * {
     margin: 0;
     padding: 0;
@@ -82,3 +96,68 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+.container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 100vh;
+        width: 100vw;
+        padding-bottom: 0%;
+    }
+    
+    .cell-1{
+        padding: 10% 10%;
+        display: block;
+        justify-content: center;
+        min-height: 100vh;
+        min-width: 40vw;
+        word-wrap: break-word;
+    }
+    .cell-1 h2{
+        font-weight: bolder;
+        font-size: 4rem;
+        opacity: 0.8;
+        text-align: start;
+    }
+
+    .container a{
+        /* padding-top: 30% 0; */
+        display: block;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: rgba(0, 0, 0, 0.8);
+        text-decoration-color: var(--Yellow);
+        text-align: start;
+        padding-top: 1rem;
+    }
+
+    a:hover{
+        color: black;
+    }
+
+
+   .container .egg-img{
+       background-size: cover;
+       min-height: 100%;
+       min-width: 40vw;
+       position: relative;
+       overflow: hidden;
+       
+   }
+
+   .egg-img{
+       position: absolute;
+       min-height: 100vh;
+       min-width: 50vw;
+   }
+
+   
+
+   p{
+       font-weight: lighter;
+       opacity: 0.8;
+       text-align: start;
+       font-size: 1.4rem;
+       font-weight: lighter;
+       line-height: 2.5rem;
+    }
