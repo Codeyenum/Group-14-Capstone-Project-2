@@ -106,10 +106,7 @@ h3{
 }
 
 .egg_image{
-    width:650px;
     height:350px;
-    border:1px;
-    float: right;
 }
 
 
@@ -126,47 +123,39 @@ h3{
     
 }
 
-.navf{
-    display: flex;
-    align-content: center;
-    margin-left: 500px;
-    margin-top: 30px;
+.container {
+    text-align: center;
 }
 
-.navf p {
+.container li {
+    display: inline-block;
+    padding: 12.5px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+
+a:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.nav img:hover {
+    filter: brightness(0) invert(1);
+}
+
+.company-name-container h1 {
+    display: inline-block;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    margin: 50px 0px 30px;
+}
+
+.socials a{
     text-decoration: none;
     display: inline-block;
-    color: rgba(38, 172, 145, 0.6);
-    font-weight: 600;
+    margin: 50px 0px;
 }
 
-.navf li {
-    display: inline;
-    padding: 20px;
-
-}
-
-.navf p:hover{
-    cursor: pointer;
-    color: hsl(0, 0%, 100%);
-
-}
-
-.socials{
-    margin-left: 550px;
-    margin-top: 45px;
-}
-
-.facebook{
-    padding: 15px;
-}
-.instagram{
-    padding: 15px;
-}
-.twitter{
-    padding: 15px;
-}
-.pinterest{
-    padding: 15px;
-}
 
