@@ -11,9 +11,11 @@
 
 .main-header {
     background: url("./images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
     height: 740px;
-    background-size: contain;
-    width: 100%;
+    
 }
 
 .company-name {
@@ -21,8 +23,7 @@
     font-weight: 800;
     font-size: 1.5rem;
     color: hsl(0, 0%, 100%);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px;
 }
 
 .contact {
@@ -31,13 +32,10 @@
     display: inline-block;
     color: black;
     font-family: 'Fraunces';
-    padding-top: 17.5px;
-    padding-bottom: 17.5px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 17.5px 30px 17.5px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 32px;
-    margin-top: 30px;
+    margin: 15px 0px;
 }
 
 .contact:hover{
