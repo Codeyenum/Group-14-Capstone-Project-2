@@ -82,3 +82,11 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+.transform_box{
+    width:650px;
+    height:350px;
+    border:1px solid black;
+    text-align: center;
+    padding: 60px;
+}
