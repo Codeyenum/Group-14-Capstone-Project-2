@@ -83,10 +83,31 @@
     text-align: center;
 }
 
+h3{
+    font-size: 35px;
+    font-family: fraunces;
+
+}
+
+.top_part{
+    display: flex;
+}
+
 .transform_box{
     width:650px;
     height:350px;
     border:1px solid white;
-    text-align: center;
-    padding: 60px;
+    text-align: left;
+    padding-top:80px ;
+    padding-left: 80px;
+    padding-bottom:80px ;
+    padding-right: 40px;
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.egg_image{
+    width:650px;
+    height:350px;
+    border:1px;
+    float: right;
 }
