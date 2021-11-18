@@ -111,3 +111,62 @@ h3{
     border:1px;
     float: right;
 }
+
+
+.footer{
+    background-color:rgba(38, 172, 145, 0.6);
+    height: 300px;
+}
+
+.sunny{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Barlow;
+    color:rgba(2, 83, 67, 0.8);
+    
+}
+
+.navf{
+    display: flex;
+    align-content: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.navf p {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(38, 172, 145, 0.6);
+    font-weight: 600;
+}
+
+.navf li {
+    display: inline;
+    padding: 20px;
+
+}
+
+.navf p:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.socials{
+    margin-left: 550px;
+    margin-top: 45px;
+}
+
+.facebook{
+    padding: 15px;
+}
+.instagram{
+    padding: 15px;
+}
+.twitter{
+    padding: 15px;
+}
+.pinterest{
+    padding: 15px;
+}
+
