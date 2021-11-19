@@ -96,6 +96,50 @@ section {
     padding: 0px;
 }
 
+.graphic-container {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.graphic-img {
+    width: 50vw;
+    padding: 0px;
+}
+
+.graphic-content {
+    position: absolute;
+    float: left;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    line-height: 25px;
+}
+
+.graphic-content h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.photography-img {
+    width: 50vw;
+    padding: 0pt;
+}
+
+.photography-content {
+    position: absolute;
+    float: right;
+    top: 55%;
+    right: 25%;
+    transform: translate(50%, 50%);
+    line-height: 25px;
+}
+.photography-content h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
 .footer{
     background-color:rgba(38, 172, 145, 0.6);
     height: 300px;
