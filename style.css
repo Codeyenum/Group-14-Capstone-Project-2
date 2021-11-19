@@ -9,6 +9,11 @@
     font-size: 18px;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .main-header {
     background: url("./images/desktop/image-header.jpg");
     background-repeat: no-repeat;
@@ -212,7 +217,7 @@ section {
 
 .container li {
     display: inline-block;
-    padding: 12.5px;
+    padding: 10px;
 }
 
 .footer-nav a {
