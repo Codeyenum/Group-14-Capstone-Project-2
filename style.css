@@ -15,6 +15,7 @@
     background-size: cover;
     width: 100vw;
     height: 740px;
+    background-position: center;
     
 }
 
@@ -51,12 +52,11 @@
     font-weight: 600;
 }
 
-
-
 .nav li {
     display: inline;
     padding: 20px;
 }
+
 .main-header-container {
     display: flex;
     align-items: center;
@@ -82,6 +82,7 @@
     text-transform: uppercase;
     text-align: center;
 }
+
 .column {
     width: 100vw;
     height: 600px;
@@ -104,10 +105,16 @@ section {
 
 .graphic-content {
     background-image: url('./images/desktop/image-graphic-design.jpg');
+    color: hsl(167, 40%, 24%);
+    background-position: center;
+    background-size: cover;
 }
 
 .photography-content {
     background-image: url('./images/desktop/image-photography.jpg');
+    color: hsl(198, 62%, 26%);
+    background-position: center;
+    background-size: cover;
 }
 
 .text-image-column section {
@@ -130,71 +137,74 @@ section {
     margin-bottom: 1.75rem;
 }
 
+.testimonials img {
+    border-radius: 50%;
+    width: 65px;
+}
 
-/* .graphic-container {
-    width: 100vw;
-    height: 600px;
+.testimonials{
     display: flex;
-    position: relative;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-} */
-
-/* 
-.graphic-content {
-    position: absolute;
-    float: left;
-    top: 75%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    line-height: 25px;
+    align-items: center;
+    width: 100%;
+    padding: 70px 0;
 }
 
-.graphic-content h1{
-    margin-bottom: 20px;
-    font-size: 25px;
-} */
-/* 
-.photography-content {
-    position: absolute;
-    float: right;
-    top: 55%;
-    right: 25%;
-    transform: translate(50%, 50%);
-    line-height: 25px;
+.testimonials h1 {
+    margin: 3rem;
+    font-family: 'Fraunces';
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: hsl(210, 4%, 67%);
 }
 
-.photography-content h1{
-    margin-bottom: 20px;
-    font-size: 25px;
-} */
+.clients {
+    display: flex;
+    margin: 0px 100px;
+}
+
+.clients div {
+    margin: 0 5px;
+}
+
+.clients p {
+    margin: 50px 0px;
+    line-height: 1.5em;
+    color: hsl(232, 10%, 55%);
+    font-weight: 600;
+}
+
+.clients strong {
+    font-family: 'Fraunces';
+    font-weight: 800;
+    color: hsl(212, 27%, 19%);
+}
+
+.clients span {
+    display: block;
+    color: hsl(210, 4%, 67%);
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    font-size: 0.8em;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-images img {
+    width: 25vw;
+}
 
 .footer{
     background-color:rgba(38, 172, 145, 0.6);
     height: 300px;
     width: 100vw;
 }
-
-
-/* 
-.transform-box h3 {
-    font-family: 'Fraunces';
-    font-size: 2em;
-    font-weight: 800;
-    width: 10em;
-    margin: 30px 10px 10px;
-    padding: 20px;
-}
-
-.transform-box p {
-    padding: 0px 20px;
-    margin: 10px 10px 50px 10px;
-    width: 110%;
-} */
-
-
-
-
-
 
 .container {
     text-align: center;
