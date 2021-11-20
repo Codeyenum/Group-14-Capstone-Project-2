@@ -35,7 +35,6 @@ body {
 .contact {
     text-decoration: none;
     font-size: 0.8em;
-    display: inline-block;
     color: black;
     font-family: 'Fraunces';
     padding: 17.5px 30px 17.5px;
@@ -68,6 +67,7 @@ body {
 }
 
 .main-header-container ul{
+    margin: 1.5em 0;
     flex-grow: 1;
     text-align: end;
 }
@@ -92,6 +92,67 @@ body {
     width: 100vw;
     height: 600px;
     display: flex;    
+}
+
+.column h1 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 4em 60px 10px;
+    padding: 0 60px;
+}
+
+.transform-column p {
+    margin: 1.75em 60px 40px;
+    padding-left: 60px;
+    line-height: 1.5em;
+    color: hsl(213, 9%, 39%);
+}
+
+.cup-column p {
+    margin: 1.75em 60px 40px;
+    padding-left: 60px;
+    line-height: 1.5em;
+    color: hsl(213, 9%, 39%);
+}
+
+.column a {
+    margin: 0px 120px 10px;
+    line-height: 1.5em;
+    color: black;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.column a:hover {
+    text-decoration: none;
+}
+
+.column span {
+    display: block;
+    width: 117px;
+    margin-left: 115px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+
+.transform-column span {
+    border: 5px solid hsla(51, 100%, 49%, 0.3);
+}
+
+.cup-column span {
+    border: 5px solid hsla(7, 99%, 70%, 0.3);
+}
+
+.transform-column a:hover + span {
+    border: 5px solid hsl(51, 100%, 49%);
+}
+
+.cup-column a:hover + span {
+    border: 5px solid hsl(7, 99%, 70%);
 }
 
 section {
@@ -178,7 +239,7 @@ section {
 .clients p {
     margin: 50px 0px;
     line-height: 1.5em;
-    color: hsl(232, 10%, 55%);
+    color: hsl(213, 9%, 39%);
     font-weight: 600;
 }
 
@@ -225,7 +286,7 @@ section {
     color: hsl(167, 40%, 24%);
 }
 
-a:hover {
+.footer-nav a:hover {
     color: hsl(0, 0%, 100%);
 }
 
