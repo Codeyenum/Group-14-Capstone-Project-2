@@ -8,159 +8,187 @@
     font-family: 'Barlow';
     font-size: 18px;
 }
+    .main-header {
+        background: url("./images/desktop/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:100vh;
+        position: relative;
+        
+    }
+    .arrow-down{
+        position:absolute;
+        top:50% ;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
 
-.main-header {
-    background: url("./images/desktop/image-header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 740px;
     
-}
+    .company-name {
+        font-family: 'Barlow';
+        font-weight: 800;
+        font-size: 1.5rem;
+        color: hsl(0, 0%, 100%);
+        padding: 0px 20px;
+    }
+    
+    .contact {
+        text-decoration: none;
+        font-size: 0.8em;
+        display: inline-block;
+        color: black;
+        font-family: 'Fraunces';
+        padding: 17.5px 30px 17.5px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 32px;
+        margin: 15px 0px;
+    }
+    
+    .contact:hover{
+        cursor: pointer;
+        color: hsl(0, 0%, 100%);
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    .heading{
+        font-family: 'Fraunces', serif; 
+        position: absolute;
+        top: 25%;left: 22%;
+    }
+    
+    .nav p {
+        text-decoration: none;
+        display: inline-block;
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+    }
+    
+    
+    
+    .nav li {
+        display: inline;
+        padding: 20px;
+    }
+    .main-header-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .main-header-container ul{
+        flex-grow: 1;
+        text-align: end;
+    }
+    
+/* heading styles ends here */
 
-.company-name {
-    font-family: 'Barlow';
-    font-weight: 800;
-    font-size: 1.5rem;
-    color: hsl(0, 0%, 100%);
-    padding: 0px 20px;
-}
-
-.contact {
-    text-decoration: none;
-    font-size: 0.8em;
-    display: inline-block;
-    color: black;
-    font-family: 'Fraunces';
-    padding: 17.5px 30px 17.5px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 32px;
-    margin: 15px 0px;
-}
-
-.contact:hover{
-    cursor: pointer;
-    color: hsl(0, 0%, 100%);
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.nav p {
-    text-decoration: none;
-    display: inline-block;
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-}
-
-
-
-.nav li {
-    display: inline;
-    padding: 20px;
-}
-.main-header-container {
-    display: flex;
-    align-items: center;
-}
-
-.main-header-container ul{
-    flex-grow: 1;
-    text-align: end;
-}
-
-.arrow-container p{
-    font-family: 'Fraunces';
-    font-weight: 900;
-    font-size: 2.8em;
-    margin-top: 70px;
-    margin-bottom: 75px;
-    padding: 20px;
-    letter-spacing: 8px;
-    color: hsl(0, 0%, 100%);
-}
-
-.arrow-container {
-    text-transform: uppercase;
-    text-align: center;
-}
-.transform-column {
-    width: 100vw;
-    display: flex;    
-}
-
-section {
-    width: 50vw;
-}
-
-.egg-img {
-    width: 50vw;
-    padding: 0px;
-}
-
-.footer{
-    background-color:rgba(38, 172, 145, 0.6);
-    height: 300px;
-    width: 100vw;
-}
-
-
-.transform-box {
-    padding: 100px;
-    margin: 10px;
-}
-
-.transform-box h3 {
-    font-family: 'Fraunces';
-    font-size: 2em;
-    font-weight: 800;
-    width: 10em;
-    margin: 30px 10px 10px;
-    padding: 20px;
-}
-
-.transform-box p {
-    padding: 0px 20px;
-    margin: 10px 10px 50px 10px;
-    width: 110%;
-}
+/* description section styles starts here */
+  .container-content{
+    padding: 10rem;
+  }
+  .headings{
+      font-family:'Barlow', sans-serif ;
+      margin-bottom: 1.5rem;
+  }
+  .container-content p{
+      margin-bottom: 1.5rem;
+      font-weight: 200;
+      color:hsl(213, 9%, 39%) ;
+      padding: 0;
+  }
 
 
 
 
 
 
-.container {
-    text-align: center;
-}
 
-.container li {
-    display: inline-block;
-    padding: 12.5px;
-}
 
-.footer-nav a {
-    text-decoration: none;
-    color: hsl(167, 40%, 24%);
-}
 
-a:hover {
-    color: hsl(0, 0%, 100%);
-}
 
-.nav img:hover {
-    filter: brightness(0) invert(1);
-}
 
-.company-name-container h1 {
-    display: inline-block;
-    text-align: center;
-    color: hsl(167, 40%, 24%);
-    margin: 50px 0px 30px;
-}
 
-.socials a{
-    text-decoration: none;
-    display: inline-block;
-    margin: 50px 0px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer{
+        background-color:rgba(38, 172, 145, 0.6);
+        height: 300px;
+        width: 100vw;
+    }
+    
+    
+    .transform-box {
+        padding: 100px;
+        margin: 10px;
+    }
+    
+    .transform-box h3 {
+        font-family: 'Fraunces';
+        font-size: 2em;
+        font-weight: 800;
+        width: 10em;
+        margin: 30px 10px 10px;
+        padding: 20px;
+    }
+    
+    .transform-box p {
+        padding: 0px 20px;
+        margin: 10px 10px 50px 10px;
+        width: 110%;
+    }
+    
+    
+    
+    
+    
+    
+    .container {
+        text-align: center;
+    }
+    
+    .container li {
+        display: inline-block;
+        padding: 12.5px;
+    }
+    
+    .footer-nav a {
+        text-decoration: none;
+        color: hsl(167, 40%, 24%);
+    }
+    
+    a:hover {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .nav img:hover {
+        filter: brightness(0) invert(1);
+    }
+    
+    .company-name-container h1 {
+        display: inline-block;
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+        margin: 50px 0px 30px;
+    }
+    
+    .socials a{
+        text-decoration: none;
+        display: inline-block;
+        margin: 50px 0px;
+    }
+    
 
 
