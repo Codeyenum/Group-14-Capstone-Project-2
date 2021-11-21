@@ -169,16 +169,13 @@ section {
     height: 600px;  
 }
 
-.graphic-content{
+.graphic-content {
     background-image: url('./images/desktop/image-graphic-design.jpg');
     color: hsl(167, 40%, 24%);
     background-position: center;
     background-size: cover;
 }
 
-.graph-text{
-    margin-top: 15rem;
-}
 .photography-content {
     background-image: url('./images/desktop/image-photography.jpg');
     color: hsl(198, 62%, 26%);
