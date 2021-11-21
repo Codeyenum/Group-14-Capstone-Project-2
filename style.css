@@ -451,6 +451,10 @@ img {
     height: 600px;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 .text-image-column h1 {
