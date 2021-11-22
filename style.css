@@ -101,7 +101,9 @@ body {
     margin: 4em 60px 10px;
     padding: 0 0 0 60px;
 }
-
+.text-area{
+    margin-top: 15rem;
+}
 .transform-column p {
     margin: 1.75em 60px 40px;
     padding-left: 60px;
