@@ -33,11 +33,11 @@ Users should be able to:
 
 ### Links
 - Live Site URL: 
-- Solution URL:
+- Solution URL:https://github.com/Codeyenum/Group-14-Capstone-Project-2
 
 
 ## Our process
-Different members in the team committed different parts of the project to make it complete,helping each other along the way.
+Different members in the team committed different parts of the project to make it complete,helping each other along the wa
 
 
 
@@ -53,7 +53,6 @@ Different members in the team committed different parts of the project to make i
 - Effective distribution of tasks and responsibilities to team members
 - How to work with CSS layouts, the Box Model, borders and fonts
 - How to improve design responsiveness with media queries
-- 
 
 
 ### Useful resources
@@ -76,7 +75,3 @@ Different members in the team committed different parts of the project to make i
 - Faruk Oluwaseun 
 - Segun Abolaji 
 
-
- 
-## Acknowledgments
-- 
