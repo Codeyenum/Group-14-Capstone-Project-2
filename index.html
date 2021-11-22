@@ -15,9 +15,16 @@
   </head>
 
   <body>
+    <!-- header starts here -->
     <header class="main-header">
       <div class="main-header-container">
-        <h1 class="company-name">sunnyside</h1>
+        <div class="logo">
+          <div class="harmburger">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+          </div>
+
+          <img src="./images/logo.svg" alt="sunnyside logo" />
+        </div>
         <ul class="nav header-nav">
           <li>
             <p>About</p>
@@ -36,9 +43,12 @@
         <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
       </div>
     </header>
+    <!-- header ends here -->
+    <!-- main section starts here -->
     <main>
-      <div class="column transform-column">
-        <section class="content transform-content">
+      <!-- transform part starts -->
+      <section class="column transform-column">
+        <div class="content transform-content">
           <h1>Transform your brand</h1>
           <p>
             We are a full-service creative agency specializing in helping brands
@@ -47,23 +57,27 @@
           </p>
           <a href="#">Learn more</a>
           <span></span>
-        </section>
-        <section>
+        </div>
+        <div class="eggies">
           <img
             class="img-box egg-img"
             src="./images/desktop/image-transform.jpg"
             alt="Egg with yellow background"
           />
-        </section>
-      </div>
-      <div class="column cup-column">
-        <section>
+        </div>
+      </section>
+
+      <!-- tranform part ends -->
+
+      <!-- cup area starts here  -->
+      <section class="column cup-column">
+        <div>
           <img
             class="img-box cup-img"
             src="images/desktop/image-stand-out.jpg"
             alt="pink cup with pink background"
           />
-        </section>
+        </div>
         <section class="content audience-content">
           <h1>Stand out to the right audience</h1>
           <p>
@@ -74,7 +88,10 @@
           <a href="#">Learn more</a>
           <span></span>
         </section>
-      </div>
+      </section>
+      <!-- cup area ends here -->
+
+      <!-- graphic and phto graphy starts here -->
       <div class="column text-image-column">
         <section class="container graphic-content">
           <div class="text-area">
@@ -96,6 +113,8 @@
           </div>
         </section>
       </div>
+      <!-- graphic and photography ends here -->
+      <!-- testimoniala starts here -->
     </main>
     <section class="testimonials">
       <h1>Client testimonials</h1>
@@ -135,6 +154,8 @@
         </div>
       </div>
     </section>
+
+    <!-- testimonials ends here -->
     <section>
       <div class="gallery-images">
         <img
@@ -203,5 +224,13 @@
         </div>
       </div>
     </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
