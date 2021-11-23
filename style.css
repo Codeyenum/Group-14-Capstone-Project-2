@@ -13,6 +13,7 @@ html{
    font-size: 16px;
    font-family: 'Fraunces';
 }
+
 .main-header {
     background: url("./images/desktop/image-header.jpg");
     background-repeat: no-repeat;
@@ -23,6 +24,7 @@ html{
     background-position: center;
     
 }
+
 .main-header-container {
     display: flex;
     align-items: center;
@@ -54,9 +56,31 @@ html{
     padding: 20px;
 }
 
-.contact {
+.header-nav li {
+    display: inline;
+    padding: 15px;
+    margin-right: 2rem;
+}
+
+.header-nav li a {
+    margin-right: -3rem;
+    color: white;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.header-nav li a:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+#contact {
+    text-decoration: none;
+    font-size: 1em;
     color: black;
     font-family: 'Fraunces';
     padding: 17.5px 30px 17.5px;
@@ -65,7 +89,7 @@ html{
     margin: 15px 0px;
 }
 
-.contact:hover{
+#contact:hover{
     cursor: pointer;
     color: hsl(0, 0%, 100%);
     background-color: rgba(255, 255, 255, 0.3);
@@ -326,19 +350,63 @@ section {
     .hamburger{
         display: block;
         position: absolute;
-        top: 1%;
-        right: 5%;
+        top: .8rem;
+        right: .5rem;
         padding: 7.5px 15px 0;
     
+    }
+
+    .header-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        z-index: 3;
+        top: 35px;
+        background: rgb(243, 240, 240);
+        left: 1.3rem;
+        right:  1.4rem;
+        padding: 2rem;
+        border-radius: 4px;
+        clip-path: polygon(93% 11%, 100% 0, 100% 100%, 0 100%, 0 57%, 0 11%);
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }
+
+    .header-nav li {
+        text-align: center;
+    }
+
+    .header-nav li a {
+        color: rgb(109, 107, 107);
+    }
+
+    .header-nav li a:hover{
+        cursor: pointer;
+        color: black;
+        background-color: rgb(245, 184, 17);
+    }
+
+    #contact {   
+        display: inline-block;     
+        margin: 5px -3rem 0px 0px;
+    }
+    
+    #contact:hover{
+        cursor: pointer;
+        color: black;
+        background-color: rgb(245, 184, 17);
+    }
+
+    .header-nav.show {
+        display: flex;
+    }
+
+    .arrow-container p {
+        position: relative;
     }
     
     .logo{
         margin-top: 5%;
-    }
-    
-    .bars{
-        font-size:2rem;
-        color: white;
     }
     
     .nav{

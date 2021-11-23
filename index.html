@@ -15,23 +15,17 @@
     <header class="main-header">
         <div class="main-header-container">
             <div class="logo">
-                <div class="hamburger">
-                    <ion-icon class="bars" name="menu-outline"></ion-icon>
-                </div>
+                <label class="hamburger">
+                    <span><img id="hamburger" src="./images/icon-hamburger.svg" alt=""></span>
+                </label>
 
                 <img src="./images/logo.svg" alt="sunnyside logo" />
             </div>
-            <ul class="nav header-nav">
-                <li>
-                    <p>About</p>
-                </li>
-                <li>
-                    <p>Services</p>
-                </li>
-                <li>
-                    <p>Projects</p>
-                </li>
-                <li><a class="contact" href="#">CONTACT</a></li>
+            <ul id="header-nav" class="nav header-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a id="contact" href="#">CONTACT</a></li>
             </ul>
         </div>
         <div class="arrow-container">
@@ -194,6 +188,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
