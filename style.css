@@ -389,12 +389,13 @@ section {
     #contact {   
         display: inline-block;     
         margin: 5px -3rem 0px 0px;
+        background-color: rgb(245, 184, 17);
     }
     
     #contact:hover{
         cursor: pointer;
         color: black;
-        background-color: rgb(245, 184, 17);
+        background-color: rgba(245, 184, 17, 0.3);
     }
 
     .header-nav.show {
