@@ -27,8 +27,8 @@ Users should be able to:
 
 
 ### Screenshot
-[Frontend Mentor Sunnyside agency landing page solution](https://user-images.githubusercontent.com/80462725/143098179-d0ce5ee1-0c34-4c49-9356-2326ee954a12.png)
-
+(![Frontend Mentor Sunnyside agency landing page solution](https://user-images.githubusercontent.com/80462725/143098179-d0ce5ee1-0c34-4c49-9356-2326ee954a12.png)
+)
 
 
 ### Links
