@@ -32,8 +32,9 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: 
+- Live Site URL:https://group14capstoneproject2.netlify.app/ 
 - Solution URL:https://github.com/Codeyenum/Group-14-Capstone-Project-2
+- Hashnode URL:
 
 
 ## Our process
@@ -46,6 +47,7 @@ Different members in the team committed different parts of the project to make i
 - CSS custom properties
 - CSS flex-box
 - CSS hover effects
+- JavaScript
 
 
   
