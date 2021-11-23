@@ -17,7 +17,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-Replica project built purely with HTML and CSS
+Replica project built with HTML, CSS and JavaScript
 
 
 ### The challenge
@@ -44,6 +44,7 @@ Different members in the team committed different parts of the project to make i
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS flex-box
 - CSS hover effects
 
 
@@ -51,8 +52,9 @@ Different members in the team committed different parts of the project to make i
 ### What we learnt
 - How to plan out and create efficient project structure and architecture
 - Effective distribution of tasks and responsibilities to team members
-- How to work with CSS layouts, the Box Model, borders and fonts
+- How to work with CSS layouts, flex-box, borders and fonts
 - How to improve design responsiveness with media queries
+- Introduction of JavaScript into HTML 
 
 
 ### Useful resources
@@ -70,7 +72,6 @@ Different members in the team committed different parts of the project to make i
 - Oluwaseyi Abiodun 
 - Adekunle Agbonhin  
 - Moyinoluwa Babalola 
-- Onyeachonam Daniel 
 - Okeke Onyebuchi Hyacinth 
 - Faruk Oluwaseun 
 - Segun Abolaji 
