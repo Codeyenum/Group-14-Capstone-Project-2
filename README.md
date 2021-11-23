@@ -58,7 +58,15 @@ Different members in the team committed different parts of the project to make i
 
 
 ### Useful resources
--
+-https://www.google.com/amp/s/www.freecodecamp.org/news/how-to-write-a-good-readme-file/amp/ - This is an amazing article that helped in understanding how to write a good README file for the GitHub project. Recommend it to anyone still learning this concept.
+
+-https://www.w3schools.com/css/css_align.asp - This website provided great insight on how to centre HTML elements with CSS. Recommend it to anyone interested in learning this concept.
+
+-https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ - This is another website that helped in learning about CSS position property. It is an awesome resource and would recommend it to anyone trying to learn about this property as well.
+
+-https://www.youtube.com/watch?v=8JJ101D3knE Programming with Mosh - This in-depth Git Youtube tutorial teaches you everything you need to learn Git basics.
+
+-https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/ - This blog post beautifully outlines the step-by-step procedures in hosting your website for free. Definitely recommending giving it a read. Anyone interested in learning about free website hosting.
 
 
 
@@ -78,4 +86,5 @@ Different members in the team committed different parts of the project to make i
 
 
 ## Acknowledgments
-- Our mentors; Damilare Oyetade and Faruq Abdul Azeez for guiding us through this course.
+Special thanks to all Group 14 members for their efforts and great intellectual input towards the completion of this project. Without everyone's enormous efforts, the completion of this project would have been impossible. Finally, I would like to thank Sidehustle for granting us the opportunity to partake in this internship and making this project possible. Special thanks to our mentors Mr. Faruq Abdulazeez and Mr. Damilare Oyetade whose teachings helped bring us this far.
+
