@@ -71,7 +71,6 @@ Different members in the team committed different parts of the project to make i
 - David Temitope 
 - Oluwaseyi Abiodun 
 - Adekunle Agbonhin  
-- Moyinoluwa Babalola 
 - Okeke Onyebuchi Hyacinth 
 - Faruk Oluwaseun 
 - Segun Abolaji 
