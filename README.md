@@ -27,8 +27,8 @@ Users should be able to:
 
 
 ### Screenshot
-![image]()
-
+![image](![Frontend Mentor Sunnyside agency landing page solution](https://user-images.githubusercontent.com/80462725/143098179-d0ce5ee1-0c34-4c49-9356-2326ee954a12.png)
+)
 
 
 ### Links
@@ -67,11 +67,13 @@ Different members in the team committed different parts of the project to make i
 - Abijo Abimbola Oluwasayo 
 - Olanrewaju Wakilat Adeola  
 - David Temitope 
-- Oluwaseyi Abiodun 
 - Adekunle Agbonhin  
-- Moyinoluwa Babalola 
-- Onyeachonam Daniel 
 - Okeke Onyebuchi Hyacinth 
 - Faruk Oluwaseun 
 - Segun Abolaji 
+- Miriam Ikechukwu
 
+
+
+## Acknowledgments
+- Our mentors; Damilare Oyetade and Faruq Abdul Azeez for guiding us through this course.
