@@ -107,8 +107,8 @@ html{
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 2.8em;
-    margin-top: 70px;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     letter-spacing: 8px;
     color: hsl(0, 0%, 100%);
@@ -191,6 +191,7 @@ html{
 
 section {
     width: 50vw;
+    height: 600px;
 }
 .img-box{
     width: 50vw;
@@ -451,6 +452,7 @@ section {
             
     section {
         width: 100vw;
+        height: 100%;
     }
 
     .content {
