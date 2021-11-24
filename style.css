@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap');
-
+:root{
+     --soft-red:hsl(7, 99%, 70%);
+     --yellow:hsl(51, 100%, 49%);
+     --dark-sat-cyan: hsl(167, 40%, 24%);
+     --dark-blue:hsl(198, 62%, 26%);
+     --dark-moderate-cyan: hsl(168, 34%, 41%);
+     --very-dark-blue: hsl(212, 27%, 19%);
+     --very-dark-grayish-blue: hsl(232, 10%, 55%);
+     --grayish-blue; hsl(210, 4%, 67%);
+     --white: hsl(0, 0%, 100%);
+     --transparent-yellow:hsla(51, 100%, 49%, 0.3);
+}
 * {
     margin: 0;
     padding: 0;
@@ -40,14 +51,14 @@ html{
     font-family: 'Barlow';
     font-weight: 800;
     font-size: 1.5rem;
-    color: hsl(0, 0%, 100%);
+    color:var(--white);
     padding: 0px 20px;
 }
 
 .nav p {
     text-decoration: none;
     display: inline-block;
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     font-weight: 600;
 }
 
@@ -64,7 +75,7 @@ html{
 
 .header-nav li a {
     margin-right: -3rem;
-    color: white;
+    color:var(--white);
     text-decoration: none;
     font-size: 20px;
     padding: 15px 30px;
@@ -73,7 +84,7 @@ html{
 
 .header-nav li a:hover{
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: var(--very-dark-grayish-blue);
     text-transform: uppercase;
     border-radius: 30px;
 }
@@ -81,18 +92,18 @@ html{
 #contact {
     text-decoration: none;
     font-size: 1em;
-    color: black;
+    color:var(--very-dark-blue);
     font-family: 'Fraunces';
     padding: 17.5px 30px 17.5px;
-    background-color: hsl(0, 0%, 100%);
+    background-color:var(--white);
     border-radius: 32px;
     margin: 15px 0px;
 }
 
 #contact:hover{
     cursor: pointer;
-    color: hsl(0, 0%, 100%);
-    background-color: rgba(255, 255, 255, 0.3);
+    color:var(--white);
+    background-color:var(--very-dark-grayish-blue);
 }
 
 .logo{
@@ -111,7 +122,7 @@ html{
     margin-bottom: 50px;
     padding: 20px;
     letter-spacing: 8px;
-    color: hsl(0, 0%, 100%);
+    color:var(--white);
 }
 
 /* main section styling starts here */
@@ -137,7 +148,7 @@ html{
 .column a {
     margin: 0px 120px 10px;
     line-height: 1.5em;
-    color: black;
+    color:var(--very-dark-blue);
     font-family: 'Fraunces';
     font-weight: 900;
     font-size: 0.8em;
@@ -155,10 +166,10 @@ html{
     margin-left: 115px;
     margin-top: -10px;
     border-radius: 5px;
-    border: 5px solid hsla(51, 100%, 49%, 0.3);
+    border: 5px solid var(--transparent-yellow);
 }
 .column a:hover + span {
-    border: 5px solid hsl(51, 100%, 49%);
+    border: 5px solid var(--yellow)
 }
 
 
@@ -170,14 +181,14 @@ html{
     margin: 1.75em 60px 40px;
     padding-left: 60px;
     line-height: 1.5em;
-    color: hsl(213, 9%, 39%);
+    color: var(--very-dark-grayish-blue);
 }
 
 .cup-column p {
     margin: 1.75em 60px 40px;
     padding-left: 60px;
     line-height: 1.5em;
-    color: hsl(213, 9%, 39%);
+    color:var(--very-dark-grayish-blue;)
 }
 
 .cup-column span {
@@ -186,7 +197,7 @@ html{
 
 
 .cup-column a:hover + span {
-    border: 5px solid hsl(7, 99%, 70%);
+    border: 5px solid var(--soft-red);
 }
 
 section {
@@ -224,14 +235,14 @@ section {
 
 .graphic-content {
     background-image: url('./images/desktop/image-graphic-design.jpg');
-    color: hsl(167, 40%, 24%);
+    color:var(--dark-sat-cyan);
     background-position: center;
     background-size: cover;
 }
 
 .photography-content {
     background-image: url('./images/desktop/image-photography.jpg');
-    color: hsl(198, 62%, 26%);
+    color: var(--dark-blue);
     background-position: center;
     background-size: cover;
 }
@@ -252,7 +263,7 @@ section {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 4px;
-    color: hsl(210, 4%, 67%);
+    color:var(--white);
 }
 
 .testimonials img {
@@ -272,19 +283,19 @@ section {
 .clients p {
     margin: 50px 0px;
     line-height: 1.5em;
-    color: hsl(213, 9%, 39%);
+    color:var(--very-dark-grayish-blue);
     font-weight: 600;
 }
 
 .clients strong {
     font-family: 'Fraunces';
     font-weight: 800;
-    color: hsl(212, 27%, 19%);
+    color:var(--very-dark-blue)
 }
 
 .clients span {
     display: block;
-    color: hsl(210, 4%, 67%);
+    color:var(--white);
     margin-top: 0.5rem;
     margin-bottom: 3rem;
     font-size: 0.8em;
@@ -300,7 +311,7 @@ section {
 }
 
 .footer{
-    background-color:rgba(38, 172, 145, 0.6);
+    background-color:var(--dark-moderate-cyan);
     height: 300px;
     width: 100vw;
 }
@@ -312,11 +323,11 @@ section {
 
 .footer-nav a {
     text-decoration: none;
-    color: hsl(167, 40%, 24%);
+    color: var(--dark-sat-cyan);
 }
 
 .footer-nav a:hover {
-    color: hsl(0, 0%, 100%);
+    color:var(--white);
 }
 
 .footer-nav img:hover {
@@ -326,7 +337,7 @@ section {
 .company-name-container h1 {
     display: inline-block;
     text-align: center;
-    color: hsl(167, 40%, 24%);
+    color:var(--dark-sat-cyan);
     margin: 50px 0px 30px;
 }
 
@@ -363,7 +374,7 @@ section {
         position: absolute;
         z-index: 3;
         top: 35px;
-        background: rgb(243, 240, 240);
+        background:var(--white);
         left: 1.3rem;
         right:  1.4rem;
         padding: 2rem;
@@ -378,27 +389,25 @@ section {
     }
 
     .header-nav li a {
-        color: rgb(109, 107, 107);
+        color: var(--grayish-blue);
     }
 
     .header-nav li a:hover{
         cursor: pointer;
         color: black;
-        background-color: rgb(245, 184, 17);
+        background-color:var(--yellow);
     }
 
     #contact {   
         display: inline-block;     
         margin: 5px -3rem 0px 0px;
-        background-color: rgb(245, 184, 17);
+        background-color: var(--yellow);
     }
     
     #contact:hover{
         cursor: pointer;
         color: black;
-        background-color: rgba(245, 184, 17, 0.3);
-    }
-
+        background-color: var(--transparent-yellow)
     .header-nav.show {
         display: flex;
     }
@@ -492,7 +501,7 @@ section {
         margin: 0px;
         padding-left: 0;
         line-height: 1.5em;
-        color: hsl(213, 9%, 39%);
+        color:var(--very-dark-grayish-blue);
     }
 
     .transform-column a {
@@ -519,7 +528,7 @@ section {
         margin: 0px;
         padding-left: 0px;
         line-height: 1.5em;
-        color: hsl(213, 9%, 39%);
+        color:var(--very-dark-grayish-blue);
     }
 
     .cup-column a {
@@ -559,14 +568,14 @@ section {
 
     .graphic-content {
         background-image: url('./images/desktop/image-graphic-design.jpg');
-        color: hsl(167, 40%, 24%);
+        color:var(--dark-moderate-cyan);
         background-position: center;
         background-size: cover;
     }
 
     .photography-content {
         background-image: url('./images/desktop/image-photography.jpg');
-        color: hsl(198, 62%, 26%);
+        color:var(--dark-blue);
         background-position: center;
         background-size: cover;
     }
@@ -597,19 +606,19 @@ section {
     .clients p {
         margin: 25px 15px;
         line-height: 1.5em;
-        color: hsl(213, 9%, 39%);
+        color:var(--very-dark-grayish-blue);
         font-weight: 600;
     }
 
     .clients strong {
         font-family: 'Fraunces';
         font-weight: 800;
-        color: hsl(212, 27%, 19%);
+        color:var(--very-dark-blue);
     }
 
     .clients span {
         display: block;
-        color: hsl(210, 4%, 67%);
+        color: var(--grayish-blue);
         margin-top: 0.5rem;
         margin-bottom: 3rem;
         font-size: 0.8em;
