@@ -32,9 +32,9 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL:https://group14capstoneproject2.netlify.app/ 
-- Solution URL:https://github.com/Codeyenum/Group-14-Capstone-Project-2
-- Hashnode URL:
+- Live Site URL: https://group14capstoneproject2.netlify.app/ 
+- Solution URL: https://github.com/Codeyenum/Group-14-Capstone-Project-2
+- Hashnode URL: https://team14.hashnode.dev/team-14-experience-interning-with-sidehustle-cohort-40-frontend-html-css-javascript-tailwind
 
 
 ## Our process
